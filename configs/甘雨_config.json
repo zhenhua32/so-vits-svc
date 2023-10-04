@@ -23,8 +23,8 @@
     "max_speclen": 512,
     "port": "8001",
     "keep_ckpts": 30,
-    "all_in_mem": false,
-    "vol_aug": true
+    "all_in_mem": true,
+    "vol_aug": false
   },
   "data": {
     "training_files": "filelists/train.txt",
@@ -95,13 +95,13 @@
     "vocoder_name": "nsf-hifigan",
     "speech_encoder": "vec768l12",
     "speaker_embedding": false,
-    "vol_embedding": true,
+    "vol_embedding": false,
     "use_depthwise_conv": false,
     "flow_share_parameter": false,
     "use_automatic_f0_prediction": true,
     "use_transformer_flow": false
   },
   "spk": {
-    "paimeng": 0
+    "ganyu": 0
   }
 }
